@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E03B85891EACD424006E33BD /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03B85881EACD424006E33BD /* FoodTableViewCell.swift */; };
+		E03B858B1EACE24F006E33BD /* cd_catalog.xml in Resources */ = {isa = PBXBuildFile; fileRef = E03B858A1EACE24F006E33BD /* cd_catalog.xml */; };
 		E062FC4D1EA8D9A5008D25A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062FC4C1EA8D9A5008D25A9 /* AppDelegate.swift */; };
 		E062FC4F1EA8D9A5008D25A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062FC4E1EA8D9A5008D25A9 /* ViewController.swift */; };
 		E062FC521EA8D9A5008D25A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E062FC501EA8D9A5008D25A9 /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		E062FC571EA8D9A5008D25A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E062FC551EA8D9A5008D25A9 /* LaunchScreen.storyboard */; };
 		E062FC621EA8D9A5008D25A9 /* XML_ParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062FC611EA8D9A5008D25A9 /* XML_ParserTests.swift */; };
 		E062FC6D1EA8D9A5008D25A9 /* XML_ParserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062FC6C1EA8D9A5008D25A9 /* XML_ParserUITests.swift */; };
+		E062FC7B1EA8EEEA008D25A9 /* simple.xml in Resources */ = {isa = PBXBuildFile; fileRef = E062FC7A1EA8EEEA008D25A9 /* simple.xml */; };
+		E062FC7D1EA8EF54008D25A9 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062FC7C1EA8EF54008D25A9 /* Food.swift */; };
+		E062FC7F1EA8F086008D25A9 /* FoodParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062FC7E1EA8F086008D25A9 /* FoodParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E03B85881EACD424006E33BD /* FoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		E03B858A1EACE24F006E33BD /* cd_catalog.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = cd_catalog.xml; sourceTree = "<group>"; };
 		E062FC491EA8D9A5008D25A9 /* XML Parser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XML Parser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E062FC4C1EA8D9A5008D25A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E062FC4E1EA8D9A5008D25A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,9 @@
 		E062FC681EA8D9A5008D25A9 /* XML ParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XML ParserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E062FC6C1EA8D9A5008D25A9 /* XML_ParserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XML_ParserUITests.swift; sourceTree = "<group>"; };
 		E062FC6E1EA8D9A5008D25A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E062FC7A1EA8EEEA008D25A9 /* simple.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = simple.xml; sourceTree = "<group>"; };
+		E062FC7C1EA8EF54008D25A9 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		E062FC7E1EA8F086008D25A9 /* FoodParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,11 @@
 				E062FC4C1EA8D9A5008D25A9 /* AppDelegate.swift */,
 				E062FC4E1EA8D9A5008D25A9 /* ViewController.swift */,
 				E062FC501EA8D9A5008D25A9 /* Main.storyboard */,
+				E03B85881EACD424006E33BD /* FoodTableViewCell.swift */,
+				E062FC7C1EA8EF54008D25A9 /* Food.swift */,
+				E062FC7E1EA8F086008D25A9 /* FoodParser.swift */,
+				E062FC7A1EA8EEEA008D25A9 /* simple.xml */,
+				E03B858A1EACE24F006E33BD /* cd_catalog.xml */,
 				E062FC531EA8D9A5008D25A9 /* Assets.xcassets */,
 				E062FC551EA8D9A5008D25A9 /* LaunchScreen.storyboard */,
 				E062FC581EA8D9A5008D25A9 /* Info.plist */,
@@ -235,6 +250,8 @@
 				E062FC571EA8D9A5008D25A9 /* LaunchScreen.storyboard in Resources */,
 				E062FC541EA8D9A5008D25A9 /* Assets.xcassets in Resources */,
 				E062FC521EA8D9A5008D25A9 /* Main.storyboard in Resources */,
+				E03B858B1EACE24F006E33BD /* cd_catalog.xml in Resources */,
+				E062FC7B1EA8EEEA008D25A9 /* simple.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E062FC7F1EA8F086008D25A9 /* FoodParser.swift in Sources */,
 				E062FC4F1EA8D9A5008D25A9 /* ViewController.swift in Sources */,
+				E03B85891EACD424006E33BD /* FoodTableViewCell.swift in Sources */,
 				E062FC4D1EA8D9A5008D25A9 /* AppDelegate.swift in Sources */,
+				E062FC7D1EA8EF54008D25A9 /* Food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +523,7 @@
 				E062FC731EA8D9A5008D25A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E062FC741EA8D9A5008D25A9 /* Build configuration list for PBXNativeTarget "XML ParserTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +532,7 @@
 				E062FC761EA8D9A5008D25A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E062FC771EA8D9A5008D25A9 /* Build configuration list for PBXNativeTarget "XML ParserUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +541,7 @@
 				E062FC791EA8D9A5008D25A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
